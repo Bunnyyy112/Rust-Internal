@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Rendering">
+      <UniqueIdentifier>{7358be27-3625-4349-94ae-26f1f516668d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering\Menu">
+      <UniqueIdentifier>{b19f8d43-ec42-4bae-b5c7-928c7c4c5c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{ab38426c-4f4b-4b0d-8a59-f314cadcb6fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering\D3D">
+      <UniqueIdentifier>{005518e4-79a7-4e80-a8db-68eda1d7be65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Minhook">
+      <UniqueIdentifier>{aa67f0c2-762f-4ceb-90e5-1362f4543a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Minhook\HDE">
+      <UniqueIdentifier>{96a66b11-0847-4d64-b12f-10562d03dc9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ingame-Hooks">
+      <UniqueIdentifier>{c44276b3-31c6-4d6c-9815-1ecb84b3102c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Memory">
+      <UniqueIdentifier>{994a5cc5-91d6-4796-a3ec-b0681cf22ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Functions">
+      <UniqueIdentifier>{4678f294-5f0b-4651-bfbf-ece689f0aaab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SDK">
+      <UniqueIdentifier>{ac4c1865-0f78-49fb-ae6e-49c46ef6259e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities\Strings">
+      <UniqueIdentifier>{0175066e-97e9-4e69-9167-680c692aa2a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\src\buffer.c">
+      <Filter>Header Files\Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\src\hook.c">
+      <Filter>Header Files\Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\src\trampoline.c">
+      <Filter>Header Files\Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\src\HDE\hde32.c">
+      <Filter>Header Files\Minhook\HDE</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\src\HDE\hde64.c">
+      <Filter>Header Files\Minhook\HDE</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Header Files\Rendering\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D.cpp">
+      <Filter>Header Files\Rendering\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Header Files\Ingame-Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Header Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities.cpp">
+      <Filter>Header Files\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderHandler.cpp">
+      <Filter>Header Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Header Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="unity.cpp">
+      <Filter>Header Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Header Files\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Header Files\Rendering</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vector.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\buffer.h">
+      <Filter>Header Files\Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\trampoline.h">
+      <Filter>Header Files\Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\HDE\hde32.h">
+      <Filter>Header Files\Minhook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\HDE\hde64.h">
+      <Filter>Header Files\Minhook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\HDE\pstdint.h">
+      <Filter>Header Files\Minhook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\HDE\table32.h">
+      <Filter>Header Files\Minhook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\HDE\table64.h">
+      <Filter>Header Files\Minhook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\include\MinHook.h">
+      <Filter>Header Files\Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.hpp">
+      <Filter>Header Files\Rendering\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Header Files\Ingame-Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities.h">
+      <Filter>Header Files\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderHandler.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="unity.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Header Files\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>Header Files\Utilities\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="StringObf.h">
+      <Filter>Header Files\Utilities\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="STR.hpp">
+      <Filter>Header Files\Utilities\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.hpp">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_filter.hpp">
+      <Filter>Header Files\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D3D.hpp">
+      <Filter>Header Files\Rendering\D3D</Filter>
+    </None>
+  </ItemGroup>
+</Project>
